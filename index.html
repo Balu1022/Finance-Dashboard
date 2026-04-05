@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Dashboard</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="main">
+
+  <div class="top">
+    <h2>Finance Dashboard</h2>
+
+    <div class="rightcontrols">
+    <select id="roleSelect">
+      <option value="viewer">Viewer</option>
+      <option value="admin">Admin</option>
+    </select>
+
+    <button id="theme">🌙</button>
+    </div>
+  </div>
+
+  <div id="cards"></div>
+
+  <div class="chartBox">
+
+  <div class="chartCard">
+    <canvas id="line"></canvas>
+  </div>
+
+  <div class="chartCard">
+    <canvas id="pie"></canvas>
+  </div>
+
+</div>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="search category">
+    
+    <select id="typeFilter">
+      <option value="all">all</option>
+      <option value="income">income</option>
+      <option value="expense">expense</option>
+    </select>
+
+    <button id="add-Btn" class="addbtn">Add</button>
+  </div>
+
+  <div class="tableWrap">
+    <table id="table"></table>
+  </div>
+
+  <div id="insightBox">
+  </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script src="./script.js"></script>
+</body>
+</html>
