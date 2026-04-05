@@ -1,121 +1,143 @@
-💰 Finance DashBoard 
+# 💰 Finance Dashboard
 
-This is a simple finance dashboard I built using HTML, CSS, and JavaScript to track income,expenses and spending patterns in a clean and interactive way.
+This is a simple finance dashboard built using HTML, CSS, and JavaScript to track income, expenses, and spending patterns in a clean and interactive way.
 
-The goal of this project was to practice frontend fundamentals while building something practical and easy to use.
+The goal of this project is to practice frontend fundamentals while building something practical and easy to use.
 
-🚀 What this Project does
+---
+
+## 🚀 What this Project Does
 
 The dashboard gives a quick overview of your financial data and helps you understand where your money is going.
 
-you can:
+You can:
 
- - See your total balance, income, and expenses
- - Visualize spending through charts
- - Browse and filter transactions
- - Switch between different user roles
- - Get small insights based on your data
+- See your total balance, income, and expenses  
+- Visualize spending through charts  
+- Browse and filter transactions  
+- Switch between different user roles  
+- Get insights based on your data  
 
- 📊 Dashboard
+---
 
- The main dashboard shows:
- 
-  - A summary of your finances (balance,income,expenses)
-  - A line chart to track monthly expenses
-  - A pie chart to understand category-wise spending
+## 📊 Dashboard
 
-  🧾 Transactions
-  
-  All transactions ate listed in a simple table with:
-  
-   - Date (grouped by month)
-   - Amount
-   - Category
-   - Type(income or expense)
+The main dashboard shows:
 
-   You can :
-   
-    - Search transactions by category
-    - Filter by income or expense
+- A summary of your finances (balance, income, expenses)  
+- A line chart to track monthly expenses  
+- A pie chart to understand category-wise spending  
 
-  👤 Roles 
-   There are two roles in the app:
+---
 
-   Viewer
-   
-    - Can only view data 
-    - Cannot modify data
+## 🧾 Transactions
 
-   Admin
-   
-    - Can add and edit transactions
+All transactions are listed in a simple table with:
 
-  you can switch roles using a dropdown , which changes what actions are available.
+- Date (grouped by month)  
+- Amount  
+- Category  
+- Type (income or expense)  
 
-  💡 Insights 
+You can:
 
-   There's a small insights section that highlights:
-   
-    - Your highest spending category 
-    - Monthly spending trend
-    - Basic observations based on your data
-  
-  🧠 How state is handled
+- Search transactions by category  
+- Filter by income or expense  
 
-  Instead of using any framework , I used a central JavaScript state object to manage :
-  
-   - Transactions
-   - Filters
-   - Current Role
-  Whenever the state updates , the UI updates accordingly.
+---
 
-  🌙 Extra touches 
+## 👤 Roles
 
-  I added a afew features to make the app feel more complete:
-  
-   - Dark mode toggle
-   - Toast notification for actions(add and edit)
-   - LocalStorage support (data stays after refresh)
-   - Responsive layout (works on mobile and desktop)
-   - Smooth UI transitions
-  
-  🛠️ Tech used 
+There are two roles in the app:
 
-   - HTML5
-   - CSS3
-   - JavaScript
-   - Chart.js for data visualization
+### Viewer
+- Can only view data  
+- Cannot modify data  
 
-  🧑‍💻 How to run
+### Admin
+- Can add and edit transactions  
 
-  No setup required:
-   1. Download or clone the project
-   2. Open index.html in your browser
+You can switch roles using a dropdown, which changes available actions.
 
-   📌Notes
+---
 
-    • This uses mock data(no backend)
-    • Data is stored in LocalStorage
-    • Monthly calculations are based on transaction dates
-    • Input validation is basic
+## 💡 Insights
 
-  📈 Possible improvements 
+The insights section highlights:
 
-   if I continue this project, I'd like to add:
-   
-    - Delete transactions
-    - Export data (CSV/JSON)
-    - Proper form UI instead of prompts
-    - More charts (income vs expense comparison)
-  
-  💬 Final Thoughts
+- Highest spending category  
+- Monthly spending trend  
+- Observations based on your data  
 
-  This project was mainly about:
-  
-   - Practicing clean UI design
-   - Managing state without frameworks
-   - Working with charts and dynamic data
-  
+---
+
+## 🧠 State Management
+
+Instead of using any framework, a central JavaScript state object is used to manage:
+
+- Transactions  
+- Filters  
+- Current role  
+
+Whenever the state updates, the UI updates accordingly.
+
+---
+
+## 🌙 Extra Features
+
+- Dark mode toggle  
+- Toast notifications (add/edit actions)  
+- LocalStorage support (data persists after refresh)  
+- Responsive design (mobile, tablet, desktop)  
+- Smooth UI transitions  
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3  
+- JavaScript  
+- Chart.js  
+
+---
+
+## 🧑‍💻 How to Run
+
+No setup required:
+
+1. Download or clone the project  
+2. Open `index.html` in your browser  
+
+---
+
+## 📌 Notes
+
+- Uses mock data (no backend)  
+- Data is stored in LocalStorage  
+- Monthly calculations are based on transaction dates  
+- Basic input validation is implemented  
+
+---
+
+## 📈 Possible Improvements
+
+If continued, the following can be added:
+
+- Delete transactions  
+- Export data (CSV/JSON)  
+- Replace prompts with proper form UI  
+- Add income vs expense comparison chart  
+
+---
+
+## 💬 Final Thoughts
+
+This project focuses on:
+
+- Practicing clean UI design  
+- Managing state without frameworks  
+- Working with charts and dynamic data  
 
   
 
