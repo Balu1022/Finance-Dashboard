@@ -4,7 +4,7 @@ let defaultData = [
   { id:2, date: "2026-01-10", amount: 1200, category: "Food", type: "expense" },
 
 
-  { id: 3,date:" 2026-02-03", amount:2000, category: "Freelance", type: "income" },
+  { id: 3,date:"2026-02-03", amount:2000, category: "Freelance", type: "income" },
   { id: 4,date:"2026-02-08", amount: 800, category: "Travel", type: "expense" },
 
   { id:5, date:"2026-03-01", amount: 5000, category: "Salary",type: "income" },
